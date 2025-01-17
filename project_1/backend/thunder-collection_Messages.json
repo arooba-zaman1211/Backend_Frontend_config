@@ -1,0 +1,74 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Messages",
+    "collectionId": "92d63662-7e4c-41d1-b45a-c27d9c9b0786",
+    "dateExported": "2024-08-20T07:42:21.219Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c4364f4a-1fc8-4a1b-bf04-f80f591edc93",
+            "colId": "92d63662-7e4c-41d1-b45a-c27d9c9b0786",
+            "containerId": "",
+            "name": "Get_Messages",
+            "url": "http://localhost:3000/api/getmessages",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-08-20T06:32:06.611Z",
+            "modified": "2024-08-20T06:32:06.611Z",
+            "headers": []
+        },
+        {
+            "_id": "00bcd440-c015-43ea-95a2-b5b5feff2699",
+            "colId": "92d63662-7e4c-41d1-b45a-c27d9c9b0786",
+            "containerId": "",
+            "name": "Send_Messages",
+            "url": "http://localhost:3000/api/sendmessages",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-08-20T06:44:50.345Z",
+            "modified": "2024-08-20T06:44:50.345Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Amna\",\n  \"email\":\"amna@gmail.com\",\n  \"input\":\"Its Amna\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "ca9b10a0-0bfa-480b-b773-db723a6d25d4",
+            "colId": "92d63662-7e4c-41d1-b45a-c27d9c9b0786",
+            "containerId": "",
+            "name": "Delete_message",
+            "url": "http://localhost:3000/api/delete/66c43b179dd9f5a75773a5f8",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-08-20T07:37:50.441Z",
+            "modified": "2024-08-20T07:37:50.441Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Amna\",\n  \"email\":\"amna@gmail.com\",\n  \"input\":\"Its Amna\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "be8e5e97-4b42-40fd-b8e3-31550c5f4ab6",
+            "colId": "92d63662-7e4c-41d1-b45a-c27d9c9b0786",
+            "containerId": "",
+            "name": "Update_message",
+            "url": "http://localhost:3000/api/update/6690cd0056c5770e97c46cd2",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-08-20T07:41:58.635Z",
+            "modified": "2024-08-20T07:41:58.635Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"input\":\"I am ayesha\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "pEY_Fe5GQGI3Ibl7BqfT-SbBBkME7vYGuEvLRl3Fl386y8KW5Up1dH-Y0DxJCk6hvwnWLDzoOdCm2zz_rUc0fg"
+}
