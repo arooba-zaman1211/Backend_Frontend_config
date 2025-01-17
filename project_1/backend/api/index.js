@@ -13,7 +13,7 @@ app.use("/api", messages);
 
 mongoose
   .connect(
-    "mongodb+srv://user1211:aroobazaman@cluster0.zfmckuh.mongodb.net/message?retryWrites=true&w=majority&appName=Cluster0"
+    
   )
   .then(() => console.log("MongoDB connected"))
   .catch((err) => console.log(err));
